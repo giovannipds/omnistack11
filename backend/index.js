@@ -20,13 +20,13 @@ const app = express();
  * 
  * Query Params: Parâmetros nomeados enviados na rota após "?" (Filtros, paginação)
  * Route Params: Parâmetros utilizados para identificar recursos
- * Request body:
+ * Request body: Corpo da requisição, utilizado para criar ou alterar recursos
  */
 
-app.get('/users/:id', (request, response) => {
-  const params = request.params;
+app.post('/users', (request, response) => {
+  const body = request.body;
 
-  console.log(params);
+  console.log(body);
 
   return response.json({
     evento: 'Semana OmniStack 11.0',
