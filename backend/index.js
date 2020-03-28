@@ -25,6 +25,11 @@ app.use(express.json());
  * Request body: Corpo da requisição, utilizado para criar ou alterar recursos
  */
 
+/**
+ * SQL: MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server
+ * MoSQL: MongoDB, CouchDB, etc
+ */
+
 app.post('/users', (request, response) => {
   const body = request.body;
 
@@ -32,7 +37,7 @@ app.post('/users', (request, response) => {
 
   return response.json({
     evento: 'Semana OmniStack 11.0',
-    aluno: 'Giovanni Pires da Silva'
+    aluno: 'Cleiton Souza'
   });
 });
 
