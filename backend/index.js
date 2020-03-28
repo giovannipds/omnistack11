@@ -15,7 +15,7 @@ const app = express();
  * DELETE: Deletar uma informação no back-end
  */
 
-app.get('/users', (request, response) => {
+app.post('/users', (request, response) => {
   return response.json({
     evento: 'Semana OmniStack 11.0',
     aluno: 'Giovanni Pires da Silva'
