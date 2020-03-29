@@ -35,7 +35,7 @@ export default function Incidents() {
             style={styles.detailsButton}
             onPress={() => {}}
           >
-            <Text style={styles.detailButtonText}>Ver mais detalhes</Text>
+            <Text style={styles.detailsButtonText}>Ver mais detalhes</Text>
             <Feather name="arrow-right" size={16} color="#e02041" />
           </TouchableOpacity>
         </View>
@@ -54,7 +54,7 @@ export default function Incidents() {
             style={styles.detailsButton}
             onPress={() => {}}
           >
-            <Text style={styles.detailButtonText}>Ver mais detalhes</Text>
+            <Text style={styles.detailsButtonText}>Ver mais detalhes</Text>
             <Feather name="arrow-right" size={16} color="#e02041" />
           </TouchableOpacity>
         </View>
@@ -73,7 +73,7 @@ export default function Incidents() {
             style={styles.detailsButton}
             onPress={() => {}}
           >
-            <Text style={styles.detailButtonText}>Ver mais detalhes</Text>
+            <Text style={styles.detailsButtonText}>Ver mais detalhes</Text>
             <Feather name="arrow-right" size={16} color="#e02041" />
           </TouchableOpacity>
         </View>
