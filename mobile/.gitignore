@@ -12,3 +12,6 @@ web-report/
 
 # macOS
 .DS_Store
+
+# we're usign yarn
+package-lock.json
