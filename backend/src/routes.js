@@ -30,7 +30,7 @@ routes.get('/profile', celebrate({
 
 routes.get('/incidents', celebrate({
   [Segments.QUERY]: Joi.object().keys({
-    page: Joi.number(),
+    page: Joi.number().min(1),
   })
 }), IncidentController.index);
 
