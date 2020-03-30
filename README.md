@@ -14,6 +14,7 @@
   
 </div>
 
-#### Also inspired by the repos of
+#### Also inspired by the repos and gists of
 - <a href="https://github.com/DanielObara/SemanaOmnistack11" title="Thanks!">DanielObara</a>
 - <a href="https://github.com/le-souza/semana-omnistack11" title="Thanks!">le-souza</a>
+- <a href="https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46" title="Thanks!">fvcproductions</a>
